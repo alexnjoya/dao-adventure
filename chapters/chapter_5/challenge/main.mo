@@ -34,8 +34,8 @@ actor {
     // PROJECT #1 //
     ///////////////
     let goals = Buffer.Buffer<Text>(0);
-    let name = "Motoko Bootcamp";
-    var manifesto = "Empower the next generation of builders and make the DAO-revolution a reality";
+    let name = "Orbit";
+    var manifesto = "To create a decentralized hub where every individual has the power to influence, innovate, and drive the future of governance and technology, free from centralized control and bureaucratic limitations.";
 
     public shared query func getName() : async Text {
         return name;

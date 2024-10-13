@@ -9,8 +9,8 @@ actor {
     type HashMap<K, V> = Types.HashMap<K, V>;
 
     var ledger : HashMap.HashMap<Principal, Nat> = HashMap.HashMap<Principal, Nat>(1, Principal.equal, Principal.hash);
-    let token : Text = "ElectionDAO";
-    let tokenTicker : Text = "ECT";
+    let token : Text = "Orbit Token";
+    let tokenTicker : Text = "ORT";
 
     public query func tokenName() : async Text {
         return token;
