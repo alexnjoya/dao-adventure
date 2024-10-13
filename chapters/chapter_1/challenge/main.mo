@@ -1,8 +1,8 @@
 import Buffer "mo:base/Buffer";
 
 actor class DAO() {
-    let name : Text = "Actually Matters DAO";
-    var manifesto : Text = "Making sure that the DAO actually matters to everyone in the world";
+    let name : Text = "Token DAO";
+    var manifesto : Text = "To create a decentralized hub where every individual has the power to influence, innovate, and drive the future of governance and technology, free from centralized control and bureaucratic limitations.";
     var goals : Buffer.Buffer<Text> = Buffer.Buffer<Text>(0);
 
     public shared query func getName() : async Text {

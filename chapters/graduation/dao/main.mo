@@ -25,8 +25,8 @@ actor {
 
         // The principal of the Webpage canister associated with this DAO canister (needs to be updated with the ID of your Webpage canister)
         stable let canisterIdWebpage : Principal = Principal.fromText("uk5da-6iaaa-aaaab-qadja-cai");
-        stable var manifesto = "Let's graduate!";
-        stable let name = "Motoko Bootcamp DAO";
+        stable var manifesto = "To create a decentralized hub where every individual has the power to influence, innovate, and drive the future of governance and technology, free from centralized control and bureaucratic limitations.";
+        stable let name = "Orbit Token";
         var goals = Buffer.Buffer<Text>(0);
 
         let tokenCanister = actor("jaamb-mqaaa-aaaaj-qa3ka-cai") : actor {

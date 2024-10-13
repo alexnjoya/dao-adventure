@@ -1,4 +1,4 @@
-import Result "mo:base/Result";
+bimport Result "mo:base/Result";
 import HashMap "mo:base/HashMap";
 import Principal "mo:base/Principal";
 import Buffer "mo:base/Buffer";
